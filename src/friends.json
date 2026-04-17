@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "name": "Alex Johnson",
+    "picture": "https://picsum.photos/seed/alex/200/200",
+    "email": "alex.j@example.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["College", "Tech"],
+    "bio": "Alex is a software engineer who loves hiking and coffee. We met in CS101.",
+    "goal": "Check in every 10 days",
+    "next_due_date": "2024-03-20"
+  },
+  {
+    "id": "2",
+    "name": "Sarah Miller",
+    "picture": "https://picsum.photos/seed/sarah/200/200",
+    "email": "sarah.m@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["High School", "Art"],
+    "bio": "Sarah is a freelance illustrator. We've been friends since 9th grade.",
+    "goal": "Monthly catch-up",
+    "next_due_date": "2024-04-10"
+  },
+  {
+    "id": "3",
+    "name": "David Chen",
+    "picture": "https://picsum.photos/seed/david/200/200",
+    "email": "dchen@example.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["Work", "Gym"],
+    "bio": "David was my mentor at my first job. He's a great source of career advice.",
+    "goal": "Bi-weekly check-in",
+    "next_due_date": "2024-03-25"
+  },
+  {
+    "id": "4",
+    "name": "Emily Davis",
+    "picture": "https://picsum.photos/seed/emily/200/200",
+    "email": "emily.d@example.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["Childhood", "Travel"],
+    "bio": "Emily is my oldest friend. She lives in London now, so we mostly video call.",
+    "goal": "Monthly video call",
+    "next_due_date": "2024-02-15"
+  },
+  {
+    "id": "5",
+    "name": "Michael Brown",
+    "picture": "https://picsum.photos/seed/michael/200/200",
+    "email": "mbrown@example.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["Music", "Local"],
+    "bio": "Michael plays in a local band. We often go to concerts together.",
+    "goal": "Weekly text",
+    "next_due_date": "2024-03-28"
+  },
+  {
+    "id": "6",
+    "name": "Jessica Lee",
+    "picture": "https://picsum.photos/seed/jessica/200/200",
+    "email": "jlee@example.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["Books", "Coffee"],
+    "bio": "Jessica and I are in the same book club. She has the best recommendations.",
+    "goal": "Monthly book discussion",
+    "next_due_date": "2024-03-30"
+  },
+  {
+    "id": "7",
+    "name": "Ryan Wilson",
+    "picture": "https://picsum.photos/seed/ryan/200/200",
+    "email": "ryan.w@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["Gaming", "Online"],
+    "bio": "Ryan is my gaming buddy. We've been playing MMOs together for years.",
+    "goal": "Weekly gaming session",
+    "next_due_date": "2024-03-10"
+  },
+  {
+    "id": "8",
+    "name": "Olivia Taylor",
+    "picture": "https://picsum.photos/seed/olivia/200/200",
+    "email": "olivia.t@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["Yoga", "Wellness"],
+    "bio": "Olivia is my yoga instructor and a close friend. She's very mindful.",
+    "goal": "Bi-weekly yoga class",
+    "next_due_date": "2024-04-05"
+  }
+]

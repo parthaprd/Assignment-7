@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Geist:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Geist", "Inter", sans-serif;
+  
+  --color-primary: #244D3F;
+  --color-bg: #F8FAFC;
+  --color-card: #FFFFFF;
+  --color-text-main: #1F2937;
+  --color-text-muted: #64748B;
+  --color-accent-red: #EF4444;
+  --color-accent-green: #37A163;
+  --color-border-theme: #E9E9E9;
+  --color-footer-bg: #244D3F;
+  --color-footer-line: #1A8862;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-text-main font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight text-text-main;
+  }
+}
+
+.theme-card {
+  @apply bg-card border border-border-theme rounded-lg shadow-[0_1px_3px_rgba(0,0,0,0.05)];
+}
+
+.theme-shadow-lg {
+  @apply shadow-[0_4px_12px_rgba(0,0,0,0.05)];
+}
+
+.btn-theme-secondary {
+  @apply bg-card border border-border-theme rounded-lg px-4 py-3 font-medium text-text-main hover:bg-bg transition-colors text-center;
+}

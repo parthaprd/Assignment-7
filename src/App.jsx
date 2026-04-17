@@ -1,0 +1,36 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Toaster } from 'sonner';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import FriendDetail from './pages/FriendDetail';
+import Timeline from './pages/Timeline';
+import Stats from './pages/Stats';
+import NotFound from './pages/NotFound';
+
+export default function App() {
+  return (
+    <Router>
+      <div className="min-h-screen flex flex-col">
+        <Toaster position="top-right" richColors />
+        <Navbar />
+        <main className="flex-1">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/friend/:id" element={<FriendDetail />} />
+            <Route path="/timeline" element={<Timeline />} />
+            <Route path="/stats" element={<Stats />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
+  );
+}
