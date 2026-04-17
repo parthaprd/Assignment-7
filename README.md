@@ -29,3 +29,4 @@ KeenKeeper is a modern social health dashboard designed to help you nurture and 
 
 ---
 
+*Built with ❤️ for meaningful connections.*
