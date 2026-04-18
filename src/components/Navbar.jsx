@@ -1,7 +1,9 @@
+
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Home, Clock, BarChart3 } from 'lucide-react';
 import { cn } from '../lib/utils';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   const location = useLocation();
@@ -15,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="h-[78px] bg-white border-b border-[#E9E9E9] flex items-center justify-between px-4 sm:px-10 lg:px-20 flex-shrink-0 sticky top-0 z-50">
       <Link to="/" className="flex items-center">
-        <img src="/assets/logo.png" alt="KeenKeeper" className="h-8 w-auto" />
+        <img src={logo} alt="KeenKeeper" className="h-8 w-auto" />
       </Link>
       
       <div className="hidden md:flex items-center gap-4">

@@ -18,7 +18,7 @@ KeenKeeper is a modern social health dashboard designed to help you nurture and 
 - **Tailwind CSS:** For a modern, utility-first design system.
 - **Recharts:** For beautiful, responsive data visualizations.
 - **Lucide React:** For a consistent and expressive icon set.
-- **Framer Motion:** For smooth, purposeful animations.
+
 - **Sonner:** For elegant toast notifications.
 
 ## 📈 Key Highlights
@@ -29,4 +29,3 @@ KeenKeeper is a modern social health dashboard designed to help you nurture and 
 
 ---
 
-*Built with ❤️ for meaningful connections.*
